@@ -45,7 +45,7 @@ python3 -m pip install -r requirements.txt
 ./py4web.py set-password
 as per the py4web README
 ```
-This will create a py4web folder in /home/<username> and in our example looked like /home/eudorajab/py4web
+This will create a py4web folder in ```/home/<username>``` and in our example looked like /home/eudorajab/py4web
  
 Next step is to move the bottle_app.py file from the /home/eudorajab/ folder into the /home/eudorajab/py4web folder
 
@@ -88,7 +88,7 @@ from bottle_app import application
 ```
 NOTE: project_home needs to point to your apps foleder. In this case it was originally /home/eueorajab/
 
-Reload the server and that should be it.
+Reload the server from the Web Tab and that should be it.
 
 
 
