@@ -36,8 +36,8 @@ application = wsgi(password_file=password_file,
 
 ```
 In order to run Py4Web from source I did the following :-
-In Pythonanywhere open a new bash console
 ```
+In Pythonanywhere open a new bash console
 git clone https://github.com/web2py/py4web.git
 cd py4web
 python3 -m pip install -r requirements.txt
