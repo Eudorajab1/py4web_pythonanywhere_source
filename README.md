@@ -1,6 +1,6 @@
 # Installing Py4Web on pythonanywhere from source
 
-Having installed py4web pythonanywhere using pip as per https://youtu.be/Wxjl_vkLAEY I recently had the need to run py4web from source for dev purposes.
+Having installed py4web on pythonanywhere using pip as per https://youtu.be/Wxjl_vkLAEY I recently had the need to run py4web from source for dev purposes.
 The initial install was very much vanilla with all defaults accepted from the pythonanywhere web tab and ended up like this:
 ```
 Code:
