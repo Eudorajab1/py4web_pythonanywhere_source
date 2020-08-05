@@ -2,6 +2,7 @@
 
 Having installed py4web pythonanywhere using pip as per https://youtu.be/Wxjl_vkLAEY I recently had the need to run py4web from source for dev purposes.
 The initial install was very much vanilla with all defaults accepted from the pythonanywhere web tab and ended up like this:
+```
 Code:
 What your site is running.
 
@@ -14,7 +15,7 @@ Working directory:
 WSGI configuration file:/var/www/eudorajab_pythonanywhere_com_wsgi.py
 
 Python version:3.8
-
+```
 This creates the bottle_app.py, password.txt and the apps folder in the /home/eudorajab directory. 
 
 NOTE: The bottle_app.py file after editing shoould look like this: 
@@ -34,8 +35,6 @@ application = wsgi(password_file=password_file,
                    apps_folder=APPS_FOLDER)
 
 ```
-and there was no need to alter the wsgi.py file.
-
 In order to run Py4Web from source I did the following :-
 In Pythonanywhere open a new bash console
 ```
@@ -47,16 +46,17 @@ python3 -m pip install -r requirements.txt
 as per the py4web README
 ```
 This will create a py4web folder in /home/<username> and in our example looked like /home/eudorajab/py4web
-  
+ 
 Next step is to move the bottle_app.py file from the /home/eudorajab/ folder into the /home/eudorajab/py4web folder
 
 Next from the web tab in pythonanywhere change
+```
 Source code:
 /home/eudorajab/py4web/
 
 Working directory:
 /home/eudorajab/py4web/
-
+```
 You can do this by clicking on the actual field and changing
 
 Next click on your WSGI configuration link which will allow you to edit this file
